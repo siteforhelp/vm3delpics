@@ -5,7 +5,7 @@
 		<description>The component which can help to remove all unused Virtuemart 3 medias</description>
 		<element>com_vm3delpics</element>
 		<type>component</type>
-		<version>1.0</version>
+		<version>1.0.0</version>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/siteforhelp/vm3delpics/blob/master/com_vm3delpics.zip</downloadurl>
 		</downloads>
