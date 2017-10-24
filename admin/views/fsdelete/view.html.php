@@ -26,7 +26,7 @@ class Vm3delpicsViewFSDelete extends JViewLegacy{
 	}
 	
 	protected function addToolbar(){
-		JToolBarHelper::title(JText::_("COM_VM3DELPICS_ADMIN_DELETE_TITLE"));
+		JToolBarHelper::title(JText::_("COM_VM3DELPICS_ADMIN_FSDELETE_TITLE"));
 		JToolBarHelper::deleteList(JText::_("COM_VM3DELPICS_ADMIN_DELETE_SELECTED_Q"),'fsdelete.deleteFSSelected', JText::_("COM_VM3DELPICS_ADMIN_DELETE_SELECTED"));
 		JToolBarHelper::custom('fsdelete.deleteFSAllFiles', 'deletes', 'delete-hover', JText::_("COM_VM3DELPICS_ADMIN_DELETE_ALL_FS_BUTTON"), false);
 		JToolBarHelper::help('',false,'https://joomlaforum.ru/index.php?action=profile;u=128057');

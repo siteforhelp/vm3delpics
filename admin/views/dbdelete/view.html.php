@@ -22,7 +22,7 @@ class Vm3delpicsViewDBDelete extends JViewLegacy{
 	}
 	
 	protected function addToolbar(){
-		JToolBarHelper::title(JText::_("COM_VM3DELPICS_ADMIN_DELETE_TITLE"));
+		JToolBarHelper::title(JText::_("COM_VM3DELPICS_ADMIN_DBDELETE_TITLE"));
 		JToolBarHelper::deleteList(JText::_("JGLOBAL_CONFIRM_DELETE"),'dbdelete.deleteDBSelected');
 		JToolBarHelper::custom('dbdelete.deleteDBAllImgs', 'deletes', 'delete-hover', JText::_("COM_VM3DELPICS_ADMIN_DELETE_ALL_BUTTON"), false);
 		JToolBarHelper::help('',false,'https://joomlaforum.ru/index.php?action=profile;u=128057');
