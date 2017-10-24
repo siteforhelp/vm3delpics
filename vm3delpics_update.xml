@@ -14,7 +14,7 @@
 		</tags>
 		<maintainer>borro</maintainer>
 		<maintainerurl>https://forum.joomla.org/memberlist.php?mode=viewprofile&u=574731</maintainerurl>
-		<targetplatform name="joomla" version="3.[234567]" />
+		<targetplatform name="joomla" version="3.[4567]" />
 		<php_minimum>5.5</php_minimum>
 	</update>
 </updates>
